@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: transparent linear-gradient(119deg, rgba(145, 46, 139, 1) 0%, rgba(108, 47, 126, 1) 46%, rgba(48, 48, 104, 1) 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100vh;
+}
+
+.blur{
+    background: rgba(255, 255, 255, 0.21)
+}
+.text-purple{
+    color: purple;
+}
+.logo{
+    left: 20%;
+}
