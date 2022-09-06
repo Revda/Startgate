@@ -6,12 +6,27 @@
 body{
     background: transparent linear-gradient(119deg, rgba(145, 46, 139, 1) 0%, rgba(108, 47, 126, 1) 46%, rgba(48, 48, 104, 1) 100%) 0% 0% no-repeat padding-box;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+  
 }
 
 .blur{
-    background: rgba(255, 255, 255, 0.21)
+    box-shadow: none !important;
+    background: rgba(255, 255, 255, 0.21) !important;
+    border: none !important;
+    color: #fff;
 }
 .text-purple{
     color: purple;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    box-shadow: rgba(255, 255, 255, 0.21) !important;
+    background: rgba(255, 255, 255, 0.21) !important;
+    border: 2px solid rgba(255, 255, 255, 0.21) !important;
+}
+::placeholder{
+    color: #fff !important;
+    
 }
